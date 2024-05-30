@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Plus Jakarta Sans;
+  src: url(assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+:root {
+  /* font */
+  --jakarta: Plus Jakarta Sans;
+
+  /* primary color */
+  --red: hsl(1, 90%, 64%);
+  --blue: hsl(219, 85%, 26%);
+
+  /* neutral */
+  --white: hsl(0, 0%, 100%);
+  --very-light-grayish-blue: hsl(210, 60%, 98%);
+  --light-grayish-blue-one: hsl(211, 68%, 94%);
+  --light-grayish-blue-two: hsl(205, 33%, 90%);
+  --grayish-blue: hsl(219, 14%, 63%);
+  --dark-grayish-blue: hsl(219, 12%, 42%);
+  --very-dark-blue: hsl(224, 21%, 14%);
+}
+
+.fm-jakarta {
+  font-family: var(--jakarta) !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+.color-white {
+  color: var(--white) !important;
+}
+
+.color-grayish-blue {
+  color: var(--grayish-blue) !important;
+}
+
+.color-dark-grayish-blue {
+  color: var(--dark-grayish-blue) !important;
+}
+
+.color-very-dark-blue {
+  color: var(--very-dark-blue) !important;
+}
+
+.color-blue {
+  color: var(--blue) !important;
+}
+
+.bg-blue {
+  background-color: var(--blue) !important;
+}
+
+.bg-very-light-grayish-blue {
+  background-color: var(--very-light-grayish-blue) !important;
+}
+
+.bg-light-grayish-blue-two {
+  background-color: var(--light-grayish-blue-two) !important;
+}
+
+.bg-light-grayish-blue-one {
+  background-color: var(--light-grayish-blue-one) !important;
+}
+
+.avatar {
+  width: 50px;
+}
+
+.unread-notification {
+  background-color: var(--very-light-grayish-blue) !important;
+}
+
+.unread-notification .unread-logo {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--red);
+  display: inline-block;
+}
+
+.hover-blue:hover {
+  color: var(--blue) !important ;
+}
+
+.hover-bg-light-grayish-blue-one:hover {
+  background-color: var(--light-grayish-blue-one);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

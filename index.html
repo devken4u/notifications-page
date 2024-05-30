@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body class="bg-very-light-grayish-blue">
+    <main class="container-md p-5">
+      <div class="row row-cols-1 fm-jakarta fs-5 p-4 gy-3 bg-white">
+        <div class="col d-flex justify-content-between align-items-center p-0">
+          <p class="fw-800 color-very-dark-blue m-0">
+            Notifications
+            <span
+              class="color-white bg-blue pe-2 ps-2 ms-2 rounded-1 m-0 fw-500 fs-6"
+              >3</span
+            >
+          </p>
+          <p
+            class="m-0 fs-6 cursor-p color-dark-grayish-blue fw-500 hover-blue cursor-pointer"
+          >
+            Mark all as read
+          </p>
+        </div>
+
+        <div class="col rounded-3 p-4 unread-notification">
+          <div class="row">
+            <div class="col-auto m-0 p-0 me-3">
+              <img
+                src="assets/images/avatar-mark-webber.webp"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col m-0 p-0">
+              <div class="row">
+                <div class="col-12">
+                  <span
+                    class="fw-800 color-very-dark-blue cursor-pointer hover-blue"
+                    >Mark Webber</span
+                  >
+                  <span class="color-dark-grayish-blue"
+                    >reacted to your recent post</span
+                  >
+                  <span
+                    class="fw-800 color-dark-grayish-blue cursor-pointer hover-blue"
+                    >My first tournament today!</span
+                  >
+                  <span class="unread-logo rounded-5"></span>
+                </div>
+                <div class="col color-grayish-blue fs-6">1m ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col rounded-3 p-4 unread-notification">
+          <div class="row">
+            <div class="col-auto m-0 p-0 me-3">
+              <img
+                src="assets/images/avatar-angela-gray.webp"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col m-0 p-0">
+              <div class="row">
+                <div class="col-12">
+                  <span
+                    class="fw-800 color-very-dark-blue cursor-pointer hover-blue"
+                    >Angela Gray</span
+                  >
+                  <span class="color-dark-grayish-blue">followed you</span>
+                  <span class="unread-logo rounded-5"></span>
+                </div>
+                <div class="col color-grayish-blue fs-6">5m ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col rounded-3 p-4 unread-notification">
+          <div class="row">
+            <div class="col-auto m-0 p-0 me-3">
+              <img
+                src="assets/images/avatar-jacob-thompson.webp"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col m-0 p-0">
+              <div class="row">
+                <div class="col-12">
+                  <span
+                    class="fw-800 color-very-dark-blue cursor-pointer hover-blue"
+                    >Jacob Thompson</span
+                  >
+                  <span class="color-dark-grayish-blue"
+                    >has joined your group</span
+                  >
+                  <span class="fw-800 color-blue cursor-pointer"
+                    >Chess Club</span
+                  >
+                  <span class="unread-logo rounded-5"></span>
+                </div>
+                <div class="col color-grayish-blue fs-6">1day ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col rounded-3 p-4">
+          <div class="row">
+            <div class="col-auto m-0 p-0 me-3">
+              <img
+                src="assets/images/avatar-rizky-hasanuddin.webp"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col m-0 p-0">
+              <div class="row">
+                <div class="col-12">
+                  <span
+                    class="fw-800 color-very-dark-blue cursor-pointer hover-blue"
+                    >Rizky Hasanuddin</span
+                  >
+                  <span class="color-dark-grayish-blue"
+                    >sent you a private message</span
+                  >
+                  <span class="unread-logo rounded-5"></span>
+                </div>
+                <div class="col-12 color-grayish-blue fs-6">5days ago</div>
+                <div
+                  class="col-10 p-3 mt-3 border hover-bg-light-grayish-blue-one cursor-pointer"
+                >
+                  Hello, thanks for setting up here the Chess Club. I've been a
+                  member for a few weeks now and I'm already having lots of fun
+                  and improving my game.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col rounded-3 p-4">
+          <div class="row">
+            <div class="col-auto m-0 p-0 me-3">
+              <img
+                src="assets/images/avatar-kimberly-smith.webp"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col m-0 p-0">
+              <div class="row">
+                <div class="col-12">
+                  <span
+                    class="fw-800 color-very-dark-blue cursor-pointer hover-blue"
+                    >Kimberly Smith</span
+                  >
+                  <span class="color-dark-grayish-blue"
+                    >commented on your picture</span
+                  >
+                  <span class="unread-logo rounded-5"></span>
+                </div>
+                <div class="col-12 color-grayish-blue fs-6">1week ago</div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <img
+                src="assets/images/image-chess.webp"
+                alt=""
+                class="avatar cursor-pointer"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col rounded-3 p-4">
+          <div class="row">
+            <div class="col-auto m-0 p-0 me-3">
+              <img
+                src="assets/images/avatar-nathan-peterson.webp"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col m-0 p-0">
+              <div class="row">
+                <div class="col-12">
+                  <span
+                    class="fw-800 color-very-dark-blue cursor-pointer hover-blue"
+                    >Nathan Peterson</span
+                  >
+                  <span class="color-dark-grayish-blue"
+                    >reacted to your recent post</span
+                  >
+                  <span
+                    class="fw-bold color-dark-grayish-blue cursor-pointer hover-blue"
+                    >5 end-game strategies to increase your win rate</span
+                  >
+                  <span class="unread-logo rounded-5"></span>
+                </div>
+                <div class="col-12 color-grayish-blue fs-6">2weeks ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col rounded-3 p-4">
+          <div class="row">
+            <div class="col-auto m-0 p-0 me-3">
+              <img
+                src="assets/images/avatar-anna-kim.webp"
+                alt=""
+                class="avatar"
+              />
+            </div>
+            <div class="col m-0 p-0">
+              <div class="row">
+                <div class="col-12">
+                  <span
+                    class="fw-800 color-very-dark-blue cursor-pointer hover-blue"
+                    >Anna Kim</span
+                  >
+                  <span class="color-dark-grayish-blue">left the group</span>
+                  <span class="fw-800 color-blue cursor-pointer"
+                    >Chess Club</span
+                  >
+                  <span class="unread-logo rounded-5"></span>
+                </div>
+                <div class="col-12 color-grayish-blue fs-6">2weeks ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
